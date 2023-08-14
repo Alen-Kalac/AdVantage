@@ -1,0 +1,52 @@
+.promo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .title{
+      font-size: 3vw;
+      margin: 5% 5% 0% 5%;
+      width: 70%;
+      text-align: center;
+    }
+  
+    .promo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2% 5% 2% 5%;
+  
+      .promo-title {
+        text-align: center;
+        margin: 3% 0%;
+        font-size: 2vw;
+      }
+  
+      .promo-description {
+        padding: 2%;
+        width: 80%;
+        line-height: 2vw;
+        font-size: 1.2vw;
+        text-align: left;
+      }
+    }
+
+    @media only screen and (max-width: 480px){
+      .promo{
+        margin: 5% 5% !important;
+
+        .promo-title{
+          font-size: 4vw !important;
+        }
+        .promo-description{
+          padding: 3% !important;
+          width: 100% !important;
+          font-size: 2vw !important;
+          text-align: center;
+          line-height: 3vw;
+        }
+      }
+
+    }
+  }

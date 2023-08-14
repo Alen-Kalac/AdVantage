@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+@font-face {
+  font-family: "Sharp Grotesk Medium 25";
+  src: url("//db.onlinewebfonts.com/t/5a5c2865c8fa7a166d94d0880ca9eebc.eot");
+  src: url("//db.onlinewebfonts.com/t/5a5c2865c8fa7a166d94d0880ca9eebc.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5a5c2865c8fa7a166d94d0880ca9eebc.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/5a5c2865c8fa7a166d94d0880ca9eebc.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/5a5c2865c8fa7a166d94d0880ca9eebc.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/5a5c2865c8fa7a166d94d0880ca9eebc.svg#Sharp Grotesk Medium 25") format("svg");
+}
+
+@font-face {
+  font-family: "Sharp Grotesk Book 25";
+  src: url("//db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.eot");
+  src: url("//db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.svg#Sharp Grotesk Book 25") format("svg");
+}
+:root {
+  --text-color: #1d1d1d;
+  --white-background: rgb(247, 246, 246);
+  --green: rgb(202, 224, 31);
+  --darkBlue: rgb(40, 74, 102);
+  --lightBlue: rgb(30, 203, 225);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sharp Grotesk Book 25", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.underlined-thin {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.underlined {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.9vw;
+}
+.animated {
+  opacity: 0;
+  transform: translateY(200px);
+  transition: opacity 1s, transform 1s;
+}

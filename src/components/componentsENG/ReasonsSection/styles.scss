@@ -1,0 +1,46 @@
+.reasons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  
+    .reason {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2.5% 5% 2.5% 5%;
+  
+      .reason-title {
+        text-align: center;
+        margin: 3% 0%;
+        font-size: 2vw;
+      }
+  
+      .reason-description {
+        border: 2px solid var(--green);
+        border-radius: 4vw;
+        padding: 2%;
+        width: 70%;
+        font-size: 1.2vw;
+        text-align: left;
+      }
+    }
+
+    @media only screen and (max-width: 480px){
+      .reason{
+        margin: 5% 5% !important;
+
+        .reason-title{
+          font-size: 4vw !important;
+        }
+        .reason-description{
+          padding: 3% !important;
+          width: 100% !important;
+          font-size: 2vw !important;
+          text-align: center;
+          line-height: 3vw;
+        }
+      }
+
+    }
+  }

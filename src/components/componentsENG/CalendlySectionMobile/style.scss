@@ -1,0 +1,97 @@
+.calendly-mobile {
+  @media only screen and (min-width:480px){
+    display: none;
+  }
+    position: relative;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: var(--white-background);
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 75px);
+  
+    .calendly-mobile-text {
+      height: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+  
+      .calendly-mobile-title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 4vw;
+        padding: 5% 0%;
+      }
+  
+      .calendly-mobile-line {
+        border-bottom: 1px solid var(--white-background);
+        width: 50%;
+      }
+  
+      .calendly-mobile-description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5% 0%;
+        font-size: 3vw;
+      }
+    }
+  
+    .calendly-cta {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .calendly-mobile-button {
+        width: 100%;
+        display: flex;
+        border: 3px solid var(--green);
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1000px;
+        padding: 3.5% 1.5%;
+        font-size: 3.5vw;
+        background-color: var(--green);
+        text-decoration: none;
+        color: black;
+  
+        span {
+          padding: 2% 0%;
+        }
+  
+        &:hover {
+          background-color: var(--lightBlue);
+          border: 3px solid var(--green);
+          background-color: transparent;
+          color: var(--white-background);
+        }
+      }
+    }
+  
+    .social-icons {
+      position: absolute;
+      bottom: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 10px;
+  
+      i {
+        padding: 0 10px;
+        color: var(--green);
+        margin: 5px;
+        font-size: 24px;
+      }
+    }
+  }
+  
+  

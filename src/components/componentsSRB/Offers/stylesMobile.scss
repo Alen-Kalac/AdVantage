@@ -1,0 +1,26 @@
+@media only screen and (max-width: 480px) {
+    .offers{
+        height: 100vh;
+    
+        .title {
+            font-size: 4.3vw;
+            padding: 10% 0;
+        }
+    
+        .icons {
+            flex-direction: column;
+            height: 100%;
+    
+            .icons-line {
+                height: 2px;
+                width: 70%;
+            }
+    
+            .icon {
+                width: 100%;
+            }
+        }
+
+    }
+
+}
