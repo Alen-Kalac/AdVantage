@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Routes,Route } from 'react-router-dom';
-// import LandingEng from './components/Pages/versionEng';
+import LandingEng from './components/Pages/versionEng';
 import LandingSrb from './components/Pages/versionSrb';
 
 
@@ -37,7 +37,7 @@ function App() {
   return (
     <>
     <Routes>
-      {/* <Route path='/' element={<LandingEng/>} /> */}
+      <Route path='/' element={<LandingEng/>} />
       <Route path='/srb' element={<LandingSrb/>} />
     </Routes>
     </>
