@@ -3,51 +3,22 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    gap: 30px;
-  
-    .shadow-xl{
-      width: 20%;
-      align-items: center;
-      justify-content: center;
-      .imgContainer{
-        width: 100%;
-        align-items: center;
-        img{
-       
-        object-fit: contain;
-      }
-      }
-      
-    }
-   
-  
+    height: 50vh ;
     
-  
-  
-    .testimonial-line {
-      width: 65%;
-      border-bottom: 2px solid black;
+    .carousel-container{
+     overflow: hidden;
+     width: 90%;
+
+    img{
+      object-fit: contain;
+      width: 100%;
     }
+   }
+  
   }
 
   @media only  screen  and (max-width:480px){
-.testimonials{
-  height: 220vh !important;
-  .testimonials-bottom{
-    justify-content: center;
 
-    .testimonial-text{
-      padding: 10% 0;
-
-      span{
-        line-height: 5vw !important;
-        width: 100% !important;
-        text-align: center;
-        font-size: 4.3vw !important;
-      }
-    }
-  }
-}
   }
     
   
