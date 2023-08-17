@@ -1,12 +1,13 @@
 import React from 'react';
 import './styles.scss'
+
 function ReasonsSection() {
     return (
       <div className="reasons-section">
         <div className="reason animated">
           <p className="reason-title">1. Personalizovan pristup</p>
           <p className="reason-description">
-          U AdVantage marketing agenciji verujemo u moć presonalizovanog pristupa! Našim klijentima ne pristupamo kao još jednom broju u našem portoflio, već se trudimo da razumemo jedinstvene ciljeve njihovih biznisa i ponudimo im marketing rešenje koje povećava prodaju i donosi neverovatne rezultate!          </p>
+          U AdVantage marketing agenciji verujemo u moć presonalizovanog pristupa! Našim klijentima ne pristupamo kao još jednom broju u našem portfliju, već se trudimo da razumemo jedinstvene ciljeve njihovih biznisa i ponudimo im marketing rešenje koje povećava prodaju i donosi neverovatne rezultate!          </p>
         </div>
         <div className="reason animated">
           <p className="reason-title">2. Kreativnost koja prodaje</p>

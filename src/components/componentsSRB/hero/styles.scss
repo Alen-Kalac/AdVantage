@@ -40,13 +40,13 @@
           background-color: transparent;
           background-color: var(--darkBlue);
           color: var(--white-background);
-          border: 0;
           font-size: 25px;
           font-weight: 600;
           font-family: "Poppins", sans-serif;
+          transition: 0.3s;
 
           &:hover {
-            border: 1px solid var(--darkBlue);
+            border: 2px solid var(--darkBlue);
             background-color: transparent;
             color: var(--darkBlue);
           }

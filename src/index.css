@@ -27,6 +27,7 @@
   --lightBlue: rgb(30, 203, 225);
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +47,7 @@ body {
 
 .underlined {
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: white;
   text-decoration-skip-ink: none;
   text-underline-offset: 0.9vw;
 }

@@ -1,87 +1,28 @@
-.review {
-  width: 80%;
+.review-srb{
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
   align-items: center;
+  margin:  0 auto ;
 
-  .review-left {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    img {
-      border-radius: 200px;
+  .review-left{
+    width: 13%;
+    margin-bottom: -15%;
+    
+    img{
+      border-radius: 1000px;
       object-fit: contain;
-      width: 50%;
-      aspect-ratio: 1/1;
-      border: 5px solid var(--darkBlue);
-    }
-
-    .testimonial-name {
-      padding-top: 3%;
-      font-size: 1.7vw;
-    }
-
-    .title {
-      font-size: 0.9vw;
-      font-style: italic;
-      font-family: "Poppins", sans-serif;
     }
   }
 
-  .review-right {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .testimonial-comment {
-      text-align: left;
-      font-size: 0.9vw !important;
-      border: 2px solid var(--darkBlue) !important;
-      border-radius: 30px !important;
-      padding: 3% !important;
-      width: 90% !important;
-      overflow: hidden;
-      font-family: "Sharp Grotesk Medium 25", Arial, sans-serif;
-      letter-spacing: 0.03vw;
-    }
+  .review-right{
+    font-size: 0.9vw;
+    padding: 3%;
+    padding-top: 20%;
+    width: 100%;
   }
+
+
 }
 
-@media only screen and (max-width: 480px) {
-  .review {
-    width: 100% !important;
-    flex-direction: column !important;
-
-    .review-left {
-      z-index: 5; 
-      margin-bottom: -35%;
-      width: 100% !important;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-     
-
-      .testimonial-name {
-        padding-top: 3% !important;
-        font-size: 4vw !important;
-      }
-
-      .title {
-        font-size: 3vw !important;
-      }
-    }
-
-    .review-right {
-      width: 100% !important;
-
-      .testimonial-comment {
-        font-size: 2vw !important;
-        padding-top: 40% !important;
-      }
-    }
-  }
-}

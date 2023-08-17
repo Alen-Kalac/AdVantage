@@ -9,10 +9,9 @@ function Hero() {
         <div className="hero-content">
           <div className="hero-content-left">
             <p className="hero-text animated-onload">
-              <span>Marketing </span>
-              <span>agencija koja </span>
-              <span>stvarno daje </span>
-              <span>rezultate</span>
+              <span>Marketing agencija</span>
+              <span> koja stvarno daje rezultate</span>
+              
             </p>
             <div className="hero-line animated-onload"></div>
             <a href="#calendly">

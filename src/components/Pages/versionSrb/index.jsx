@@ -45,9 +45,9 @@ function LandingSrb() {
     <Header />
     <Hero />
     <GreenBubble>
-      <span>Sarađivali smo sa preko 40 internacionalnih</span>
+      <span>Sarađivali smo sa preko <span className="alen">40 internacionalnih</span></span>
       <span>klijenata kojima smo za 3 meseca </span>
-      <span>povećali prodaju za 33% u proseku!</span>
+      <span>povećali prodaju za <span className='alen'>33%</span> u proseku!</span>
     </GreenBubble>
     <Offers/>
     <GreenBubble>
