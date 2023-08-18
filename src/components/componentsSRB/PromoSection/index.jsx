@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.scss'
 function PromoSection() {
     return (
-      <div className="promo-section">
+      <div className="promo-section-srb">
         <span className='title animated'>Ovog meseca čekamo Vas!</span>
         <div className="promo animated">
           <p className="promo-description">

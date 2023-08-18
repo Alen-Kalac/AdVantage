@@ -6,7 +6,7 @@ import tiktokIcon from './icons/tiktok-icon.png'
 
 const Offers = () => {
   return (
-    <section className="offers">
+    <section className="offers-srb">
       <div className="offers-content">
         <p className="title animated">Koje usluge nudimo?<br /></p>
         <div className="icons animated">

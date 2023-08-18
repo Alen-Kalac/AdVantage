@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef,useState,useEffect} from "react";
 import "./styles.scss";
 import Autoplay from "embla-carousel-autoplay"; // Make sure you've installed this package
 import { Carousel } from "@mantine/carousel";
@@ -20,12 +20,30 @@ import imgFourteen from "./Logo/Fourteen.png";
 import imgFifteen from "./Logo/Fifteen.png";
 
 function Testimonials() {
-  const autoplay = useRef(Autoplay({ delay: 2000 })); // Adjust the delay as needed
+  const autoplay = useRef(Autoplay({ delay: 2000 }));
+  const [slideSize, setSlideSize] = useState("20%");
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 480) {
+        setSlideSize("50%");
+      } else {
+        setSlideSize("20%");
+      }
+    };
+
+    handleResize(); // Call once to set initial size
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const useStyles = createStyles(() => ({
     controls: {
-      ref: getStylesRef('controls'),
-      transition: 'opacity 150ms ease',
+      ref: getStylesRef("controls"),
+      transition: "opacity 150ms ease",
       opacity: 0,
     },
   }));
@@ -36,7 +54,7 @@ function Testimonials() {
    <div className="carousel-container">
    <Carousel
    classNames={classes}
-slideSize="20%"
+slideSize={slideSize}
 slideGap="xl"
 loop
 plugins={[autoplay.current]} // Add the autoplay plugin

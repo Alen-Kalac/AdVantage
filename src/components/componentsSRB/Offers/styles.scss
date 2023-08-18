@@ -1,4 +1,4 @@
-.offers {
+.offers-srb{
   width: 100%;
   height: calc(102vh);
   
@@ -76,7 +76,9 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .offers  {
+  .offers-srb  {
+    height: auto;
+    padding: 5% 0 ;
     .title {
      
       font-size: 4.3vw !important;
@@ -94,11 +96,16 @@
 
       .icon {
         width: 100% !important;
+        margin-bottom: 5%;
+
+        .icon-description{
+          font-size: 4vw !important;
+        }
       }
     }
 
     .outro-text {
-      padding: 10% 0  !important;
+      padding: 5% 0  !important;
 
       span {
         width: 100% !important;
