@@ -1,4 +1,8 @@
 .review-eng{
+  padding: 4% 0 ;
+  border-radius: 20px;
+  background-color: rgb(252, 252, 252);
+  height: 100%;
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -27,4 +31,32 @@
 
 
 }
+@media only screen and (max-width:480px){
+  .review-eng{
+   
+  
+    .review-top{
+      .testimonial-name{
+        padding-bottom: 10px;
+      }
+      
+      img{
+        padding-bottom: 10px;
+        width: 60% !important; 
+        border-radius: 1000px;
+        object-fit: contain;
+      }
+    }
+  
+    .review-bottom{
+      font-size: 3vw;
+      padding: 3%;
+      width: 100%;
+      .testimonial-comment{
 
+      }
+    }
+  
+  
+  }
+}

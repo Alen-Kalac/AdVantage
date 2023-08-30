@@ -5,7 +5,7 @@ import avatar from '../../Images/Marko-Hero.png'
 
 function Hero() {
     return (
-      <section className="hero">
+      <section className="hero-en">
         <div className="hero-content">
           <div className="hero-content-left">
             <p className="hero-text animated-onload">

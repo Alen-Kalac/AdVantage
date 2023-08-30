@@ -16,7 +16,7 @@ className="testimonials-carousel"
 infiniteLoop={true}
 autoPlay={true}
 showStatus={false}
-interval={3000}
+emulateTouch={true}
 >
    <Testimonial
           imageSrc={TrainerOne}

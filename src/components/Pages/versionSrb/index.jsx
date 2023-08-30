@@ -56,7 +56,7 @@ function LandingSrb() {
     </GreenBubble>
    <Clients />
     <GreenBubble>
-      <span>Prihvatamo <span className="underlined">samo jednog</span> </span>
+      <span>Prihvatamo <span className="underlined-green">samo jednog</span> </span>
       <span>novog klijenta mesečno!</span>
     </GreenBubble>
     <PromoSection />

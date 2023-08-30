@@ -15,9 +15,9 @@ const Offers = () => {
          <div >
             <svg height="50" width="50">
               <circle
-                cx="25"
-                cy="25"
-                r="25"
+                cx="50%"
+                cy="50%"
+                r="50%"
                 opacity={0.2}
                 stroke-width="3"
                 fill="rgb(202, 224, 31)"
@@ -37,9 +37,9 @@ const Offers = () => {
           <div >
             <svg height="50" width="50">
               <circle
-                cx="25"
-                cy="25"
-                r="25"
+                cx="50%"
+                cy="50%"
+                r="50%"
                 opacity={0.2}
                 stroke-width="3"
                 fill="rgb(202, 224, 31)"
@@ -58,9 +58,9 @@ const Offers = () => {
         <div >
             <svg height="50" width="50">
               <circle
-                cx="25"
-                cy="25"
-                r="25"
+                cx="50%"
+                cy="50%"
+                r="50%"
                 opacity={0.2}
                 stroke-width="3"
                 fill="rgb(202, 224, 31)"
@@ -79,9 +79,9 @@ const Offers = () => {
          <div >
             <svg height="50" width="50">
               <circle
-                cx="25"
-                cy="25"
-                r="25"
+               cx="50%"
+                cy="50%"
+                r="50%"
                 opacity={0.2}
                 stroke-width="3"
                 fill="rgb(202, 224, 31)"

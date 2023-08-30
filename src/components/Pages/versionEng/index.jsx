@@ -57,7 +57,7 @@ function LandingEng() {
    <Testimonials />
     <GreenBubble>
       <span>4 reasons why you </span>
-      <span><span className="underlined">should not</span> work with us</span>
+      <span><span className="underlined-green">should not</span> work with us</span>
     </GreenBubble>
     <ReasonsSection />
      <GreenBubble>
