@@ -1,15 +1,17 @@
 import React from 'react';
 import './styles.scss'
+import {BiSolidQuoteAltLeft,BiSolidQuoteAltRight} from "react-icons/bi";
 function Testimonial({ imageSrc, name, title, comment }) {
     return (
-      <div className="review animated">
-        <div className="review-left">
+      <div className="review-srb animated">
+        <div className="review-top">
           <img src={imageSrc} alt="" />
           <p className="testimonial-name">{name}</p>
           <p className="title">{title}</p>
         </div>
-        <div className="review-right">
-          <p className="testimonial-comment">{comment}</p>
+        <div className="review-bottom">
+          <p className="testimonial-comment">
+            <BiSolidQuoteAltLeft/><i>{comment}</i><BiSolidQuoteAltRight/></p>
         </div>
       </div>
     );

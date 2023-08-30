@@ -1,0 +1,30 @@
+.review-eng{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin:  0 auto ;
+
+  .review-top{
+    .testimonial-name{
+      padding-bottom: 10px;
+    }
+    
+    img{
+      padding-bottom: 10px;
+      width: 20% !important; 
+      border-radius: 1000px;
+      object-fit: contain;
+    }
+  }
+
+  .review-bottom{
+    font-size: 0.9vw;
+    padding: 3%;
+    width: 100%;
+  }
+
+
+}
+

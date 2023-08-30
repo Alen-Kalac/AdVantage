@@ -45,9 +45,9 @@ body {
   text-decoration-skip-ink: none;
 }
 
-.underlined {
+.underlined-green{
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: var(--green);
   text-decoration-skip-ink: none;
   text-underline-offset: 0.9vw;
 }

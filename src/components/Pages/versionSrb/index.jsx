@@ -3,13 +3,14 @@ import { useEffect } from 'react';
 import Header from '../../componentsSRB/header';
 import Hero from '../../componentsSRB/hero';
 import GreenBubble from '../../componentsSRB/GreenBubble';
-import Testimonials from '../../componentsSRB/Testimonials';
+import Clients from '../../componentsSRB/Clients';
 import PromoSection from '../../componentsSRB/PromoSection'
 import AboutSection from '../../componentsSRB/AboutSection';
 import CalendlySection from '../../componentsSRB/CalendlySection';
 import CalendlyMobileSection from '../../componentsSRB/CalendlySectionMobile';
 import Offers from '../../componentsSRB/Offers'
 import ReasonsSection from '../../componentsSRB/ReasonsSection'
+import Testimonials from '../../componentsSRB/Testinomials';
 
 
 function LandingSrb() {
@@ -53,7 +54,7 @@ function LandingSrb() {
     <GreenBubble>
       <span>Naši klijenti</span>
     </GreenBubble>
-   <Testimonials />
+   <Clients />
     <GreenBubble>
       <span>Prihvatamo <span className="underlined">samo jednog</span> </span>
       <span>novog klijenta mesečno!</span>
@@ -67,7 +68,7 @@ function LandingSrb() {
       <span>O nama</span>
     </GreenBubble>
     <AboutSection />
-      <CalendlySection />
+      <Testimonials/>
     <CalendlyMobileSection />
   </>
 

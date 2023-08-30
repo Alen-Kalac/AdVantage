@@ -1,6 +1,9 @@
 import React from 'react';
-import Testimonial from '../Testimonal'
+import Testimonial from './Testimonal'
 import './styles.scss'
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import TrainerOne from '../../Images/Trainer 1.png'
 import TrainerTwo from '../../Images/Trainer 2.png'
@@ -8,7 +11,14 @@ import TrainerThree from '../../Images/Trainer 3.png'
 function Testimonials() {
     return (
       <div className="testimonials">
-        <Testimonial
+        <Carousel
+className="testimonials-carousel"
+infiniteLoop={true}
+autoPlay={true}
+showStatus={false}
+interval={3000}
+>
+   <Testimonial
           imageSrc={TrainerOne}
           name="Harper S."
           title="Gym owner"
@@ -26,20 +36,16 @@ function Testimonials() {
           title="Gym owner"
           comment="At first, I was skeptical about working with AdVantage, but they quickly proved me wrong. Within the first three months of partnering with them, we saw an incredible 320% increase in ROI. They not only brought in a consistent stream of highly targeted leads but also helped us nurture those leads into loyal, long-term members. Guys from AdVantage understood our gym's unique challenges and crafted compelling ads that spoke directly to our target audience's needs and aspirations. Thanks to their expertise, our gym has experienced a significant increase in membership and revenue. If you're a gym owner looking to overcome the membership hurdle, I highly recommend partnering with AdVantage."
         />
-        <div className="testimonials-bottom">
-          <div className="testimonial-text animated">
-            <span>Don't let your competitors</span>
-            <span>steal the limelight anylonger.</span>
-          </div>
-          <div className="testimonial-line animated"></div>
-          <div className="testimonial-text animated">
-            <span>It's time to sieze the </span>
-            <span>opportunity and make </span>
-            <span>
-              <span className="underlined">your gym</span> the talk of the town!
-            </span>
-          </div>
-        </div>
+</Carousel>
+       
+      <div className="testimonials-bottom">
+  <p> What if you could:</p>
+  <span> Implement groundbreaking fitness trends before anyone else?</span>
+  <span> Offer unique, jaw-dropping amenities that keep members coming back?</span>
+  <span> Build a community so strong, it practically markets itself?</span>
+  <span> See your profits surge as your gym becomes the go-to destination?</span>
+  <p>Now you can!</p>
+</div>
       </div>
     );
   }

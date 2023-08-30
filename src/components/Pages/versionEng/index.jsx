@@ -45,8 +45,8 @@ function LandingEng() {
     <Header />
     <Hero />
     <GreenBubble>
-      <span>We've helped 35 gyms to triple the</span>
-      <span>amount of customers in just <span className="underlined">3 months!</span></span>
+      <span>We've helped 25 gyms to triple the</span>
+      <span>amount of customers in just <span className="underlined-green">3 months!</span></span>
       <span> and we can do the same for you too!</span>
     </GreenBubble>
     <Offers/>

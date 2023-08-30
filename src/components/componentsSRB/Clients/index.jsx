@@ -19,7 +19,7 @@ import imgThirteen from "./Logo/Thirteen.png";
 import imgFourteen from "./Logo/Fourteen.png";
 import imgFifteen from "./Logo/Fifteen.png";
 
-function Testimonials() {
+function Clients() {
   const autoplay = useRef(Autoplay({ delay: 2000 }));
   const [slideSize, setSlideSize] = useState("20%");
 
@@ -106,11 +106,10 @@ draggable={false}
 <Carousel.Slide>
   <img src={imgFifteen} alt="" />
 </Carousel.Slide>
-{/* ...other slides */}
 </Carousel>
    </div>
     </div>
   );
 }
 
-export default Testimonials;
+export default Clients;
