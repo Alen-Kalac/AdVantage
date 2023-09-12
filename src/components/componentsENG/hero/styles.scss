@@ -12,7 +12,7 @@
       display: flex;
       justify-content: space-evenly;
       flex-direction: column;
-      width: 60%;
+      width: 75%;
       height: 100%;
 
       .hero-text {
@@ -21,7 +21,7 @@
 
         span {
           font-family: "Sharp Grotesk Medium 25", Arial, sans-serif;
-          font-size: 3.4vw;
+          font-size: 3.1vw;
           line-height: 6vw;
         }
       }
@@ -90,7 +90,7 @@
           align-items: center;
 
           span {
-            font-size: 6vw;
+            font-size: 5vw;
             line-height: 9vw
           }
         }

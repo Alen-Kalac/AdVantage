@@ -9,9 +9,10 @@ function Hero() {
         <div className="hero-content">
           <div className="hero-content-left">
             <p className="hero-text animated-onload">
-              <span> We love spending your</span>
-              <span>money to bring you</span>
-              <span>even more of it!</span>
+              <span>We make short-form videos</span>
+              
+              <span> for long-term goals</span>
+              
             </p>
             <div className="hero-line animated-onload"></div>
             <a href="#calendly">

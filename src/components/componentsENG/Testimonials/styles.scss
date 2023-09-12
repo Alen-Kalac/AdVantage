@@ -22,33 +22,36 @@
 
     span {
       width: 100%;
-      text-align: center;
+      text-align: left;
       font-size: 1.3vw;
       line-height: 2.5vw;
     }
 
   }
 }
-
+.checkmark{
+  color: rgb(49, 173, 0);
+}
 @media only screen and (max-width:480px) {
   .testimonials {
     .testimonials-bottom {
-      color: red;
       display: flex;
       flex-direction: column;
       align-items: center;
+      
 
       p {
         font-weight: bold;
         font-size: 4.5vw;
-        padding: 2% 0;
+        padding: 5%;
       }
 
       span {
+    
         width: 100%;
         text-align: center;
         font-size: 3vw;
-        line-height: 2.5vw;
+        line-height: 3.5vw;
       }
 
     }

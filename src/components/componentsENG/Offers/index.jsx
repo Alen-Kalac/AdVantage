@@ -10,7 +10,7 @@ const Offers = () => {
   return (
     <section className="offers">
       <div className="offers-content">
-        <div className="service">
+        <div className="service animated">
          <div className="img-container">
          <div >
             <svg height="50" width="50">
@@ -32,7 +32,7 @@ const Offers = () => {
           Boost your brand online with our Social Media Management: we create, schedule, and analyze content across platforms for maximum impact
           </div>
         </div>
-        <div className="service">
+        <div className="service animated">
           <div className="img-container">
           <div >
             <svg height="50" width="50">
@@ -53,7 +53,7 @@ const Offers = () => {
           We design engaging posts to fuel your online presence and connect with your audience effectively.
           </div>
         </div>
-        <div className="service">
+        <div className="service animated">
         <div className="img-container">
         <div >
             <svg height="50" width="50">
@@ -74,7 +74,7 @@ const Offers = () => {
           Our snappy videos quickly convey messages, perfect for today's fast-paced digital world.
           </div>
         </div>
-        <div className="service">
+        <div className="service animated">
          <div className="img-container">
          <div >
             <svg height="50" width="50">
